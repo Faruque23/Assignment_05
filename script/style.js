@@ -102,6 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 this.disabled = true;
                 this.classList.add("opacity-50", "cursor-not-allowed");
             }
+            
         });
     });
 
