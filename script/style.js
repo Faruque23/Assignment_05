@@ -67,6 +67,11 @@ document.addEventListener("DOMContentLoaded", function () {
         return `${hours}:${minutes} ${ampm}`;
     }
 
+
+
+
+
+    
     // Mark task as completed
     completeButtons.forEach(button => {
         button.addEventListener("click", function () {
@@ -84,7 +89,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 // Show alert
                 alert(`You have completed the task: "${taskTitle}" at ${currentTime}`);
-
+                
+                
                 // Add task to Activity Log with time
                 const logEntry = document.createElement("p");
                 logEntry.classList.add("bg-gray-100", "p-2", "rounded-md", "shadow-md", "w-full", "text-center");
