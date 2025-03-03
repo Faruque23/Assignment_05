@@ -37,6 +37,7 @@ function updateCurrentDate() {
     dateElement.innerHTML = finalDate;
 }
 
+
 // Call the function on page load
 document.addEventListener("DOMContentLoaded", updateCurrentDate);
 
@@ -46,7 +47,7 @@ document.addEventListener("DOMContentLoaded", updateCurrentDate);
 document.addEventListener("DOMContentLoaded", function () {
     const completeButtons = document.querySelectorAll(".bg-green-800.rounded-md.p-2.text-white");
     const assignedCountElement = document.getElementById("assignedCount");
-    const completedCountElement = document.getElementById("point_increase"); // Target "23"
+    const completedCountElement = document.getElementById("point_increase"); 
     const activityLog = document.getElementById("activities"); // Activity Log container
     const clearHistoryButton = document.getElementById("clearHistoryButton"); // Clear History button
 
