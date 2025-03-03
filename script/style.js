@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", updateCurrentDate);
 document.addEventListener("DOMContentLoaded", function () {
     const completeButtons = document.querySelectorAll(".bg-green-800.rounded-md.p-2.text-white");
     const assignedCountElement = document.getElementById("assignedCount");
-    const completedCountElement = document.querySelector("nav .font-bold"); // Target "23"
+    const completedCountElement = document.getElementById("point_increase"); // Target "23"
     const activityLog = document.getElementById("activities"); // Activity Log container
     const clearHistoryButton = document.getElementById("clearHistoryButton"); // Clear History button
 
@@ -103,6 +103,8 @@ document.addEventListener("DOMContentLoaded", function () {
         activityLog.innerHTML = ""; // Clears all log entries
     });
 });
+
+
 
 
 
